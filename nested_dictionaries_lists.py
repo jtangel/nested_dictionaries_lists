@@ -16,16 +16,16 @@ sports_directory = {
 z = [ {'x': 10, 'y': 20} ]
 
 x[1][0] = 15
-# print(x)
+print(x)
 
 students[0]['last_name'] = 'Bryant'
-# print(students)
+print(students)
 
 sports_directory['soccer'][0] = 'Andres'
-# print(sports_directory)
+print(sports_directory)
 
 z[0]['y'] = 30
-# print(z)
+print(z)
 
 
 # Iterate Through a List of Dictionaries
@@ -44,7 +44,7 @@ def iterateDictionary(students):
         print(f'first_name -- {f}, last_name -- {l}')
         
 
-# iterateDictionary(students)
+iterateDictionary(students)
 
 
 # # should output: (it's okay if each key-value pair ends up on 2 separate lines;
@@ -65,8 +65,8 @@ def iterateDictionary2(key, dictionary):
 
 
 
-# iterateDictionary2('first_name', students)
-# iterateDictionary2('last_name', students)
+iterateDictionary2('first_name', students)
+iterateDictionary2('last_name', students)
 
 
 # Iterate Through a Dictionary with List Values
@@ -85,6 +85,8 @@ def printInfo(dict):
             print(dojo[str(key)][i])
 
 printInfo(dojo)
+
+
 
 
 
